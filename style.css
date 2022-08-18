@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+.header {
+  background: #ec6c19;
+}
+.header__container {
+  max-width: 1440px;
+  width: 70%;
+  margin: auto;
+}
+.header__top-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.header__top-left {
+  max-width: 348px;
+  width: 100%;
+  margin: 5px;
+}
+.header__top-left-ul {
+  list-style: none;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+.header__top-left-info {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.header__top-right {
+  max-width: 131px;
+  width: 100%;
+}
+.header__top-right-icon {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  margin: 5px;
+}
+.header__top-right-fb {
+  margin-left: 14px;
+  margin-right: 14px;
+  color: white;
+}
+.header__top-right-twitter {
+  margin-left: 14px;
+  margin-right: 14px;
+  color: white;
+}
+.header__top-right-linkedin {
+  margin-left: 14px;
+  margin-right: 14px;
+  color: white;
+}
+.header__bottom-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.header__bottom-logo-content {
+  max-width: 250px;
+  width: 100%;
+}
+.header__bottom-logo {
+  height: 200px;
+  width: 200px;
+}
+.header__bottom-right {
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+}
+.header__bottom-right-ul {
+  display: flex;
+  padding: 25px;
+}
+.header__bottom-menu {
+  display: block;
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 10px 70px;
+  margin: 10px 10px 10px 10px;
+  background-color: #ec6c19;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+.header__bottom-menu:hover {
+  background-color: white;
+  color: #ec6c19;
+  box-shadow: 0px 0px 2px 1px whitesmoke;
+}/*# sourceMappingURL=style.css.map */
