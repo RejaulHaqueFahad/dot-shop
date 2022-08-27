@@ -3,28 +3,26 @@
   padding: 0;
   font-family: Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 .header {
   background: #ec6c19;
+  padding-bottom: 20px;
 }
 .header__container {
-  max-width: 2000px;
-  width: 90%;
-  margin: auto;
-  padding-bottom: 20px;
+  max-width: 1152px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .header__top-wrap {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 6px 0;
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
-}
-.header__top-left {
-  margin: 5px;
+  padding: 8px 0;
 }
 .header__top-left-ul {
   list-style: none;
@@ -32,60 +30,36 @@
   color: white;
   font-weight: bold;
   font-size: 16px;
+  gap: 5px;
 }
-.header__top-left-info {
-  margin-left: 3px;
-  margin-right: 3px;
-}
-.header__top-right {
-  width: 30%;
-}
-.header__top-right-icon {
+.header__top-right-content {
   display: flex;
   justify-content: flex-end;
   font-size: 20px;
-  margin: 5px;
+  gap: 20px;
 }
-.header__top-right-fb {
-  margin-left: 14px;
-  margin-right: 14px;
-  color: white;
-}
-.header__top-right-twitter {
-  margin-left: 14px;
-  margin-right: 14px;
-  color: white;
-}
-.header__top-right-linkedin {
-  margin-left: 14px;
-  margin-right: 14px;
+.header__top-right-icon {
   color: white;
 }
 .header__bottom-wrap {
   display: flex;
-  width: 80%;
-  margin: auto;
-  padding-top: 6px;
   justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
 }
 .header__bottom-logo-content {
   height: 80px;
-  margin-left: 30px;
+  width: 167px;
   overflow: hidden;
 }
 .header__bottom-logo {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-.header__bottom-right {
-  margin-top: 13px;
-  max-width: 630px;
-  width: 100%;
 }
 .header__bottom-right-ul {
   display: flex;
+  align-items: center;
+  gap: 20px;
 }
 .header__bottom-menu {
   display: block;
@@ -93,7 +67,6 @@
   font-weight: bolder;
   text-decoration: none;
   padding: 10px 17px;
-  margin: 10px 10px 10px 10px;
   background-color: #ec6c19;
   border: 1px solid white;
   border-radius: 5px;
